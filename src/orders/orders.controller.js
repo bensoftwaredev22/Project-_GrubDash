@@ -39,7 +39,7 @@ function orderExists(req, res, next) {
   }
   next({
     status: 404,
-    messages: `Order id not found ${orderId}`
+    message: `Order id not found ${orderId}`
   });
 };
 
